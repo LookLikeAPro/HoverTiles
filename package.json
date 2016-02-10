@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "material-ui@0.14.4",
+      "/Users/jerry/Desktop/Programming/Solanum"
+    ]
+  ],
+  "_from": "material-ui@0.14.4",
+  "_id": "material-ui@0.14.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/material-ui",
+  "_nodeVersion": "0.12.0",
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/material-ui-0.14.4.tgz_1454460572615_0.6854069426190108"
+  },
+  "_npmUser": {
+    "email": "hai@call-em-all.com",
+    "name": "hai-cea"
+  },
+  "_npmVersion": "2.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "material-ui",
+    "raw": "material-ui@0.14.4",
+    "rawSpec": "0.14.4",
+    "scope": null,
+    "spec": "0.14.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/material-ui/-/material-ui-0.14.4.tgz",
+  "_shasum": "52f67627361ec31f52034dfe410e703804546cbc",
+  "_shrinkwrap": null,
+  "_spec": "material-ui@0.14.4",
+  "_where": "/Users/jerry/Desktop/Programming/Solanum",
+  "author": {
+    "name": "Call-em-all Engineering Team"
+  },
+  "bugs": {
+    "url": "https://github.com/callemall/material-ui/issues"
+  },
+  "dependencies": {
+  },
+  "description": "Material Design UI components built with React",
+  "directories": {},
+  "dist": {
+    "shasum": "52f67627361ec31f52034dfe410e703804546cbc",
+    "tarball": "http://registry.npmjs.org/material-ui/-/material-ui-0.14.4.tgz"
+  },
+  "gitHead": "de2bee1335ff1fd701a60cb3d739cf919dbd77ce",
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "./",
+  "maintainers": [
+    {
+      "name": "jerryz",
+      "email": "jerryzhou00@gmail.com"
+    }
+  ],
+  "name": "material-ui",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callemall/material-ui.git"
+  },
+  "version": "0.1"
+}
