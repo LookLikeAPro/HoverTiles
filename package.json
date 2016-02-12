@@ -1,6 +1,6 @@
 {
   "name": "hovertile",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A port of Mary Lou's hover tiles to React",
   "main": "index.js",
   "scripts": {
