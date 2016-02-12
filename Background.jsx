@@ -6,6 +6,6 @@ export default class Background extends Component {
 	};
 	static ref = "TileBackground";
 	render() {
-		return (<div>{this.props.children}</div>);
+		return (<div {...this.props}>{this.props.children}</div>);
 	}
 }

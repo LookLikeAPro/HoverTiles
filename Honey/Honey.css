@@ -25,6 +25,7 @@ figure.honey figcaption::before {
 }
 
 figure.honey .content {
+	display: inline;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -35,13 +36,22 @@ figure.honey .content {
 	transform: translate3d(0,-30px,0);
 }
 
-figure.honey .content i {
+figure.honey .content * {
+	display: inline;
+}
+
+figure.honey .content .hoverContent {
+	display: inline;
 	font-style: normal;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,-30px,0);
 	transform: translate3d(0,-30px,0);
+}
+
+figure.honey .content .hoverContent * {
+	display: inline;
 }
 
 figure.honey figcaption::before,
@@ -52,7 +62,7 @@ figure.honey .content {
 
 figure.honey:hover figcaption::before,
 figure.honey:hover .content,
-figure.honey:hover .content i {
+figure.honey:hover .content .hoverContent {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);

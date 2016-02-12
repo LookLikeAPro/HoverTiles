@@ -7,6 +7,6 @@ export default class Clickbox extends Component {
 	};
 	static ref = "TileClickbox";
 	render() {
-		return (<div className={commonStyles.clickbox}>{this.props.children}</div>);
+		return (<div {...this.props} className={commonStyles.clickbox}>{this.props.children}</div>);
 	}
 }

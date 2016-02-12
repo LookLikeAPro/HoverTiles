@@ -28,8 +28,10 @@ export default class Honey extends Component {
 					{image? <img className={styles.background} src={image} />
 								: <div className={styles.background}>{background}</div>}
 					<figcaption>
-							<div className={styles.content}>{content}</div>
-							<div className={styles.hoverContent}>{hoverContent}</div>
+							<div className={styles.content}>
+								{content}
+								<div className={styles.hoverContent}>{hoverContent}</div>
+							</div>
 							{clickBox}
 					</figcaption>
 				</figure>

@@ -48,7 +48,7 @@ figure.phoebe:hover .content {
 	transform: translate3d(0,0,0);
 }
 
-figure.phoebe .hoverContent a {
+figure.phoebe .hoverContent > * {
 	color: #fff;
 	font-size: 140%;
 	opacity: 0;
@@ -58,22 +58,22 @@ figure.phoebe .hoverContent a {
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.phoebe .hoverContent a:first-child {
+figure.phoebe .hoverContent > *:first-child {
 	-webkit-transform: translate3d(-60px,-60px,0);
 	transform: translate3d(-60px,-60px,0);
 }
 
-figure.phoebe .hoverContent a:nth-child(2) {
+figure.phoebe .hoverContent > *:nth-child(2) {
 	-webkit-transform: translate3d(0,60px,0);
 	transform: translate3d(0,60px,0);
 }
 
-figure.phoebe .hoverContent a:nth-child(3) {
+figure.phoebe .hoverContent > *:nth-child(3) {
 	-webkit-transform: translate3d(60px,-60px,0);
 	transform: translate3d(60px,-60px,0);
 }
 
-figure.phoebe:hover .hoverContent a {
+figure.phoebe:hover .hoverContent > * {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);

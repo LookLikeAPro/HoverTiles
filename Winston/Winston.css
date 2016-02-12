@@ -41,7 +41,7 @@ figure.winston .hoverContent {
 	padding: 0 1.5em 7% 0;
 }
 
-figure.winston a {
+figure.winston > * {
 	margin: 0 10px;
 	color: #5d504f;
 	font-size: 170%;
@@ -52,7 +52,7 @@ figure.winston a:focus {
 	color: #cc6055;
 }
 
-figure.winston .hoverContent a i {
+figure.winston .hoverContent > * {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -75,23 +75,23 @@ figure.winston:hover figcaption::before {
 	transform: rotate3d(0,0,1,20deg);
 }
 
-figure.winston:hover .hoverContent i {
+figure.winston:hover .hoverContent > * {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.winston:hover .hoverContent a:nth-child(3) i {
+figure.winston:hover .hoverContent > *:nth-child(3) {
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
 
-figure.winston:hover .hoverContent a:nth-child(2) i {
+figure.winston:hover .hoverContent > *:nth-child(2) {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
-figure.winston:hover .hoverContent a:first-child i {
+figure.winston:hover .hoverContent > *:first-child {
 	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }

@@ -6,6 +6,6 @@ export default class Content extends Component {
 	};
 	static ref = "TileContent";
 	render() {
-		return (<div>{this.props.children}</div>);
+		return (<div {...this.props}>{this.props.children}</div>);
 	}
 }

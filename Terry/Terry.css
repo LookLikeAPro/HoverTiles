@@ -71,7 +71,7 @@ figure.terry .hoverContent {
 	font-size: 111%;
 }
 
-figure.terry .hoverContent a {
+figure.terry .hoverContent > * {
 	display: block;
 	margin-bottom: 1em;
 	color: #fff;
@@ -80,8 +80,8 @@ figure.terry .hoverContent a {
 	transform: translate3d(90px,0,0);
 }
 
-figure.terry .hoverContent a:hover,
-figure.terry .hoverContent a:focus {
+figure.terry .hoverContent > *:hover,
+figure.terry .hoverContent > *:focus {
 	color: #f3cf3f;
 }
 
@@ -97,31 +97,31 @@ figure.terry:hover img {
 }
 
 figure.terry:hover .content,
-figure.terry:hover .hoverContent a {
+figure.terry:hover .hoverContent > *  {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.terry:hover .hoverContent a {
+figure.terry:hover .hoverContent > * {
 	opacity: 1;
 }
 
-figure.terry:hover .hoverContent a:first-child {
+figure.terry:hover .hoverContent > *:first-child {
 	-webkit-transition-delay: 0.025s;
 	transition-delay: 0.025s;
 }
 
-figure.terry:hover .hoverContent a:nth-child(2) {
+figure.terry:hover .hoverContent > *:nth-child(2) {
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
 
-figure.terry:hover .hoverContent a:nth-child(3) {
+figure.terry:hover .hoverContent > *:nth-child(3) {
 	-webkit-transition-delay: 0.075s;
 	transition-delay: 0.075s;
 }
 
-figure.terry:hover .hoverContent a:nth-child(4) {
+figure.terry:hover .hoverContent > *:nth-child(4) {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }

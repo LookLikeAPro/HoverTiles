@@ -6,6 +6,6 @@ export default class HoverContent extends Component {
 	};
 	static ref = "TileHoverContent";
 	render() {
-		return (<div>{this.props.children}</div>);
+		return (<div {...this.props}>{this.props.children}</div>);
 	}
 }
